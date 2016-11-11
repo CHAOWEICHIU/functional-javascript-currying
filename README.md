@@ -119,7 +119,7 @@ request('magicURL')
 
 > :kissing_smiling_eyes: It is very easy to know what the code is doing, but can I make it **human readable**?
 
-> :innocent: It is so easy to reason about my code. Also!, I can re-use the code all over my program!
+> :innocent: It is so easy to reason about my code. Also, I can re-use the code all over my program!
 
 --------------------------------------------------------
 
