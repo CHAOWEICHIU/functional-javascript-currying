@@ -93,7 +93,7 @@ var whenDataLoaded = New Promise((resolve, reject)=>{
 	resolve(students)
 })
 
-// then you can ...
+// then you have fake API call by ...
 whenDataLoaded
 	.then((result)=>{
 		console.log(result) // Students Array
@@ -102,33 +102,45 @@ whenDataLoaded
 --------------------------------------------------------
 
 
+> **Stduent Age Average**
 
-
-### Get the age average API
 ```javascript
+var goal = 28.4 // Stduent Age Average
+
 whenDataLoaded
 	.then(selectObjKeyOf('age'))
 	.then(priceMethod('average'))
 	.then((result)=>{
-		console.log(result) // 28.4
+		console.log(result === goal) // return true
 	})
 ```
+--------------------------------------------------------
 	
-### Get the average IT salary API
+
+> **Average IT's Salary**
 ```javascript
+var goal = 53000
+
 whenDataLoaded
 	.then(getDepartmentOf('IT'))
 	.then(selectObjKeyOf('salary'))
 	.then(priceMethod('average'))
 	.then(showDecimalsPoint(0))
 	.then((result)=>{
-		console.log(result) // 53000
+		console.log(result === goal) // return true
 	})
 ```
+--------------------------------------------------------
 
-### Get Female, and output only Name and Allowance
+
+> **Get Female only, display Name and Allowance**
 
 ```javascript
+var goal = [ 
+	{ name: 'Ting', allowance: 9000 },
+	{ name: 'Linda', allowance: 8000 } 
+]
+
 whenDataLoaded
 	.then(getGenderOf('F'))
 	.then(addAllowance(5000))
@@ -137,10 +149,10 @@ whenDataLoaded
 	.then(removeObjKeyOf('age'))
 	.then(removeObjKeyOf('salary'))
 	.then((result)=>{
-		console.log(result) 
-		// [ { name: 'Ting', allowance: 9000 },{ name: 'Linda', allowance: 8000 } ]
+		console.log(result === goal) // return true
 	})
 ```
+--------------------------------------------------------
 
 ### Next Step
 
