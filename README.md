@@ -235,7 +235,7 @@ whenDataLoaded
 	})
 ```
 
-> :cold_sweat: **(Declarative Style)** 
+> :kissing_closed_eyes: **(Declarative Style)** 
 
 ```javascript
 // Goal_1 -> 28.4  -> Age Average
@@ -278,7 +278,7 @@ whenDataLoaded
 ```
 
 
-> :cold_sweat: **(Declarative Style)** 
+> :innocent: **(Declarative Style with [currying](https://hughfdjackson.com/javascript/why-curry-helps/))**  
 
 
 
