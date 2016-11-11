@@ -198,28 +198,3 @@ truncateString("how are you", 5) // return how a ...
 validZipcode('48326')   		 // return true
 // More ...
 ```
-
-> [Declarative Style Demo](https://github.com/CHAOWEICHIU/functional-javascript)
-
-:thumbsup: Code that can be repeatedly used with little effort
-
-:thumbsup: Code that can be tested easily
-
-:thumbsup: Code that can express themself
-
-```javascript
-var fruits = [
-	{ name: 'apple',  price: 5 }, 
-	{ name: 'orange', price: 10 }, 
-	{ name: 'lemon',  price: 15 }
-]
-```
-```javascript
-request('magicURL')
-	.then(selectKeyOf('price'))
-	.then(priceMethod('sum'))
-	.then((result)=>{
-		console.log(result) // 30
-	})
-```
-------------------------------------------
