@@ -165,8 +165,8 @@ whenDataLoaded
 --------------------------------------------------------
 
 
-
 > **Get Female only, display Name and Allowance**
+
 
 ```javascript
 var goal = [ 
