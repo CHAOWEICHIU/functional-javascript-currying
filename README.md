@@ -24,6 +24,12 @@ var doubled = numbers.map( n => n * 2 )
 console.log(doubled) // [2,4,6,8,10]
 ```
 
+> :cold_sweat: It is really difficult to reason about
+the code at one glacne
+
+
+> :kissing_heart: It is easy to read what is going on 
+with these code
 
 
 
