@@ -1,0 +1,25 @@
+{
+  "name": "functional-javascript",
+  "version": "1.0.0",
+  "description": "funtional programming way of thinking",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "functional",
+    "programming",
+    "TDD",
+    "test",
+    "driven",
+    "development"
+  ],
+  "author": "chao wei chiu",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^3.1.2"
+  }
+}
