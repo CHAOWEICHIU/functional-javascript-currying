@@ -43,12 +43,12 @@ request('magicURL')
 If you have choosen the second way to handle this problem, **you have become a good programmer because ...**
 
 
-- [x] (  Human Term  ) Code that can be repeatedly used with little effort
-- [x] (  Human Term  ) Code that can be tested easily
-- [x] (  Human Term  ) Code that can express themself
-- [x] (  Geek Term  ) DRY
-- [x] (  Geek Term  ) Abstractions
-- [x] (  Geek Term  ) Encapsulation
+- [x]  [Human Term]  Code that can be repeatedly used with little effort
+- [x]  [Human Term]  Code that can be tested easily
+- [x]  [Human Term]  Code that can express themself
+- [x]  [Geek Term]  DRY
+- [x]  [Geek Term]  Abstractions
+- [x]  [Geek Term]  Encapsulation
 
 ### Tip:
 > Good Job! You are telling your program **WHAT** to do instead of **HOW** to do it!!
