@@ -3,6 +3,15 @@
 # Declarative Style V.S. Imperative Style
 
 
+## The difference between Imperative Style and Declarative Style?
+
+> **Imperative Style** -> You told computer "How" to do it
+
+> **Declarative Style** -> You told computer "What" to do
+
+> **Declarative Style** -> You told computer "What" to do in a human readable way!
+
+
 > :cold_sweat: **(Imperative Style)**
 
 ```javascript
@@ -123,11 +132,7 @@ request('magicURL')
 
 
 
-## The difference between Imperative Style and Declarative Style?
 
-> **Imperative Style** -> You told computer "How" to do it
-
-> **Declarative Style** -> You told computer "What" to do
 
 
 
