@@ -198,3 +198,10 @@ truncateString("how are you", 5) // return how a ...
 validZipcode('48326')   		 // return true
 // More ...
 ```
+
+## My Work
+
+### [Food Recipes Application](https://github.com/CHAOWEICHIU/favorite-food-recipe)
+
+>It is an application where has all recipes around the world. You would be able to see what ingredient that you need, what steps that you need to take in order to make the dish.
+
