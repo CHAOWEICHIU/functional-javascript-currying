@@ -1,7 +1,6 @@
 ## DEMO
 
-Raw Data
-
+Data Provided
 ```javascript
 let students = [
 	{name: 'cw',    age: 27, gender:'M', allowance: 1000, department:'IT', 	  salary: 60000.56},
@@ -12,7 +11,10 @@ let students = [
 ]
 ```
 
-Exercise 1 -> Get the average of students age
+- [x] Finish my changes
+- [ ] Push my commits to GitHub
+- [ ] Open a pull request
+1. Exercise 1 -> Get the average of students age
 
 
 Imperative programming
@@ -38,4 +40,5 @@ whenDataLoaded
 	})
 ```
 	
+2. Exercise 1 -> Get the average of students age
 	
