@@ -5,13 +5,15 @@
 > :heart: A programmer’s dream is to write code, 
 and be able to re-use it with little effort!
 --------------------------------------------------------
+
+
 > You are writing declarative style to write software if you have ...
 :thumbsup: Code that can be repeatedly used with little effort
 :thumbsup: Code that can be tested easily
 :thumbsup: Code that can express themself
 
 
-# A simple way to tell if you are a good programmer
+# Warm Up Demo
 ```javascript
 var fruits = [
 	{ name: 'apple',  price: 5 }, 
