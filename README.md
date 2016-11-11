@@ -16,6 +16,7 @@ and be able to re-use it with little effort!
 
 
 # Let's Try!
+
 ```javascript
 var fruits = [
 	{ name: 'apple',  price: 5 }, 
@@ -32,6 +33,7 @@ var fruits = [
 
 
 > **My First Way To Get Sum**
+
 ```javascript
 request('magicURL')
 	.then((fruits)=>{
@@ -47,6 +49,7 @@ request('magicURL')
 
 
 > **Second Way To Get Sum**
+
 ```javascript
 request('magicURL')
 	.then(selectKeyOf('price'))
