@@ -172,9 +172,9 @@ var whenDataLoaded = New Promise((resolve, reject)=>{	\\
 
 
 ```javascript
-var goal1 = 28.4
-var goal2 = 53000
-var goal3 = [ 
+var goal_1 = 28.4
+var goal_2 = 53000
+var goal_3 = [ 
 	{ name: 'Ting', allowance: 9000 },
 	{ name: 'Linda', allowance: 8000 } 
 ]
@@ -183,62 +183,119 @@ var goal3 = [
 --------------------------------------------------------
 
 
-> :cold_sweat: **(Imperative Style)** to get student's age average
+> :cold_sweat: **(Imperative Style)** 
 
 ```javascript
-var goal = 28.4 // Stduent Age Average
+// Goal_1 -> 28.4  -> Age Average
+// Goal_2 -> 53000 -> IT Salary Average
+// Goal_3 -> [{name:'Ting',allowance:9000},{name:'Linda',allowance:8000}]
 
+// Goal_1
+whenDataLoaded
+	.then((students)=>{
+		var ageSum = 0
+		  , ageAvg = 0
+		for (var i=0; i< students.length; i++){
+		    ageSum = ageSum + students[i].age
+		}
+		ageAvg = ageSum / (students.length + 1)
+		return ageAvg
+	})
+	.then((result)=>{
+		console.log(result === Goal_1) // return true
+	})
+
+// Goal_2
+whenDataLoaded
+	.then((students)=>{
+		// Code to remove IT .....
+		// Code to remove IT .....
+		// Code to remove IT .....
+	})
+	.then((ITs)=>{
+		var ageSum = 0
+		  , ageAvg = 0
+		for (var i=0; i< ITs.length; i++){
+		    ageSum = ageSum + ITs[i].salary
+		}
+		ageAvg = ageSum / (ITs.length + 1)
+		return ageAvg
+	})
+	.then((result)=>{
+		console.log(result === Goal_2) // return true
+	})
+
+// Goal_3
+whenDataLoaded
+	.then((students)=>{
+		// Code to ... Good luck with this!!
+	})
+	.then((result)=>{
+		console.log(result === Goal_3)
+	})
+```
+
+> :cold_sweat: **(Declarative Style)** 
+
+```javascript
+// Goal_1 -> 28.4  -> Age Average
+// Goal_2 -> 53000 -> IT Salary Average
+// Goal_3 -> [{name:'Ting',allowance:9000},{name:'Linda',allowance:8000}]
+
+// Goal_1
+whenDataLoaded
+	.then((students)=>{
+		return students.reduce((acc, student)=>acc+=student.age,0)
+	})
+	.then((result)=>{
+		console.log(result === Goal_1) // return true
+	})
+
+// Goal_2
+whenDataLoaded
+	.then((students)=>{
+		return students
+				.filter((student)=>student.department==='IT')
+				.reduce((acc, student)=>acc+=student.age,0)
+	})
+	.then((result)=>{
+		console.log(result === Goal_2) // return true
+	})
+
+// Goal_3
+whenDataLoaded
+	.then((students)=>{
+		return students
+			.filter((student)=>student.gender==='F')
+			.reduce((acc, student)=>{
+				acc.push({name:student.name, allowance:student.allowance})
+				return acc
+			},0)
+	})
+	.then((result)=>{
+		console.log(result === Goal_3) // return true
+	})	
+```
+
+
+> :cold_sweat: **(Declarative Style)** 
+
+
+
+```javascript
+// Goal_1 -> 28.4  -> Age Average
+// Goal_2 -> 53000 -> IT Salary Average
+// Goal_3 -> [{name:'Ting',allowance:9000},{name:'Linda',allowance:8000}]
+
+// Goal_1
 whenDataLoaded
 	.then(selectObjKeyOf('age'))
 	.then(priceMethod('average'))
 	.then((result)=>{
-		console.log(result === goal) // return true
+		console.log(result === Goal_1) // return true
 	})
-```
 
-
-
-
-
-
-
-
-```javascript
-var goal = 28.4 // Stduent Age Average
-
-whenDataLoaded
-	.then(selectObjKeyOf('age'))
-	.then(priceMethod('average'))
-	.then((result)=>{
-		console.log(result === goal) // return true
-	})
-```
---------------------------------------------------------
-	
-
-> **Average IT's Salary**
-
-```javascript
-var goal = 53000
-whenDataLoaded
-	.then(getDepartmentOf('IT'))
-	.then(selectObjKeyOf('salary'))
-	.then(priceMethod('average'))
-	.then(showDecimalsPoint(0))
-	.then((result)=>{
-		console.log(result === goal) // return true
-	})
-```
-
---------------------------------------------------------
-
-
-> **Get Female only, display Name and Allowance**
-
-
-```javascript
-
-
+// Goal_2
 whenDataLoaded
 	.then(getGenderOf('F'))
 	.then(addAllowance(5000))
@@ -247,9 +304,25 @@ whenDataLoaded
 	.then(removeObjKeyOf('age'))
 	.then(removeObjKeyOf('salary'))
 	.then((result)=>{
+		console.log(result === Goal_2) // return true
+	})
 
+// Goal_3
+whenDataLoaded
+	.then(getDepartmentOf('IT'))
+	.then(selectObjKeyOf('salary'))
+	.then(priceMethod('average'))
+	.then(showDecimalsPoint(0))
+	.then((result)=>{
+		console.log(result === Goal_3) // return true
 	})
 ```
+> :cold_sweat: **(Imperative Style)** 
+
+> :kissing_closed_eyes:
+
+> :innocent:
+
 
 --------------------------------------------------------
 
