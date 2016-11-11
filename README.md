@@ -8,6 +8,7 @@
 > **Declarative Style** -> You told computer "What" to do
 
 
+--------------------------------------------------------
 
 
 > :cold_sweat: **(Imperative Style)**
@@ -37,11 +38,6 @@ the block **(Imperative Style)** at the first glacne.
 
 > :kissing_heart: It is easier to read what is going on 
 with these code at one glance**(Declarative Style)**
-
-
-
-
-
 
 
 
