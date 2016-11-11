@@ -27,13 +27,19 @@ var fruits = [
 
 > **Get Sum Of Fruit Price**
 ```javascript
-// Your Code ....
+request('magicURL')
+	.then((fruits)=>{
+		// Your Code ...
+	})
+	.then((result)=>{
+		console.log(result) // return 30
+	})
 ```
 
 --------------------------------------------------------
 
 
-> **My First Way To Get Sum**
+> **My Way To Get Sum**
 
 ```javascript
 request('magicURL')
@@ -49,7 +55,7 @@ request('magicURL')
 --------------------------------------------------------
 
 
-> **Second Way To Get Sum**
+> **What If We Can Get Sum By...**
 
 ```javascript
 request('magicURL')
