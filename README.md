@@ -158,10 +158,13 @@ whenDataLoaded
 --------------------------------------------------------
 
 
-> Please Go to test folder to see how I implement the code,
-if there is something that is not clear, or you want me to 
+> Please check out test folder to see how I implement the code above
+,if there is something that is not clear, or you want me to 
 explain more about it. Please email me at chaoweichiu@gmail.com
 
+
+> This topic was inspired [video](https://www.youtube.com/watch?v=fvJ9yWqXcZI)
+and [post](https://hughfdjackson.com/javascript/why-curry-helps/).
 
 
 ## About me
