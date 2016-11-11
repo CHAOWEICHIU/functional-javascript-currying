@@ -106,5 +106,5 @@ whenDataLoaded
 ### Next Step
 
 You can go to my test file and play with things inside ^_^ Goood luck!!
-You can contact me if you would like to know more about this 
+You can contact me if you would like to know more about this.
 My email is chaoweichiu@gmail.com
