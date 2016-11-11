@@ -112,11 +112,11 @@ request('magicURL')
 	})
 ```
 
-> :dizzy_face: There is no way that I can understand it once the application get more complex
+> :dizzy_face: I feel like my brain is all over the place now...
 
-> :kissing_smiling_eyes: It is easy to reason about, but can I get it easier?
+> :kissing_smiling_eyes: It is very easy to know what the code is doing, but can I make it human readable?
 
-> :innocent: Yeah, using currying and ecaplcate all the code.
+> :innocent: It is so easy to reason about my code. Also!, I can re-use the code all over my program!
 
 --------------------------------------------------------
 
