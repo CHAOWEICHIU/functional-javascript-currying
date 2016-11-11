@@ -163,8 +163,8 @@ whenDataLoaded
 explain more about it. Please email me at chaoweichiu@gmail.com
 
 
-> This topic was inspired [video](https://www.youtube.com/watch?v=fvJ9yWqXcZI)
-and [post](https://hughfdjackson.com/javascript/why-curry-helps/).
+> This topic was inspired by [Real World Currying of JavaScript Functions](https://www.youtube.com/watch?v=fvJ9yWqXcZI)
+and [Why Curry Helps](https://hughfdjackson.com/javascript/why-curry-helps/).
 
 
 ## About me
