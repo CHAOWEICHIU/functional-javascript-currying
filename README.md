@@ -65,21 +65,26 @@ request('magicURL')
 	})
 ```
 
+
 --------------------------------------------------------
 
 
 > :dizzy_face:**(Imperative Style)** to get Sum of price
 
 ```javascript
+
 request('magicURL')
 	.then((fruits)=>{
-		fruits
-			.map((fruit)=fruit.price)
-			.reduce((acc, price)=>acc+=price,0)
-	})
+		var sum = ''
+		for (var i=0; i< fruits.length; i++){
+    		sum = sum + fruits[i].price
+		}
+		return sum
+	}
 	.then((result)=>{
-		console.log(result) // 30
+		console.log(result) // return 30
 	})
+
 ```
 
 
@@ -87,8 +92,9 @@ request('magicURL')
 
 ```javascript
 request('magicURL')
-	.then(selectKeyOf('price'))
-	.then(priceMethod('sum'))
+	.then((fruits)=>{
+		return fruits.reduce((acc, fruit)=>acc+=fruit.price,0)
+	})
 	.then((result)=>{
 		console.log(result) // 30
 	})
@@ -106,7 +112,7 @@ request('magicURL')
 	})
 ```
 
-> :cold_sweat: There is no way that I can understand it once the application get more complex
+> :dizzy_face: There is no way that I can understand it once the application get more complex
 
 > :kissing_smiling_eyes: It is easy to reason about, but can I get it easier?
 
