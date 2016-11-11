@@ -68,7 +68,11 @@ request('magicURL')
 --------------------------------------------------------
 
 
-> :grimacing: **Can you help me to get sum of price listed?**
+> :question: **Get Sum Of Price Listed?**
+
+
+--------------------------------------------------------
+
 
 > :dizzy_face:**(Imperative Style)**
 
@@ -83,7 +87,6 @@ request('magicURL')
 		console.log(result) // 30
 	})
 ```
---------------------------------------------------------
 
 
 > :kissing_smiling_eyes:**(Declarative Style)**
