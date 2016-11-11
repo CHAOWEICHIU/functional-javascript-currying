@@ -355,7 +355,6 @@ and [his video](https://www.youtube.com/watch?v=vqAaMVoKz1c)
 
 
 > :fire: Reusable Code
-and be able to re-use it with little effort!
 
 :heart: Code that can be repeatedly used with little effort
 
