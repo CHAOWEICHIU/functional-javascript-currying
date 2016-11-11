@@ -354,7 +354,7 @@ I was inspired by [MPJ](https://www.youtube.com/watch?v=TWBDa5dqrl8)
 and [his video](https://www.youtube.com/watch?v=vqAaMVoKz1c)
 
 
-> :fire: A programmer’s dream is to write code, 
+> :fire: Reusable Code
 and be able to re-use it with little effort!
 
 :heart: Code that can be repeatedly used with little effort
