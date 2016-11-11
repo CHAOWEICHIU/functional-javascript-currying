@@ -127,10 +127,6 @@ request('magicURL')
 
 
 
-
-
-
-
 ## Let's Get Dirty!
 
 
@@ -151,30 +147,61 @@ var students = [
 > :shipit: **You can get the students list by ...**
 
 
-// Pretended AJAX call from third party API
-
 ```javascript
-// then you have fake API call by ...
 whenDataLoaded
 	.then((result)=>{
 		console.log(result) // Students Array
 	})
 
-// -------------------Implementation--------------- \\
-var Promise = require('bluebird')
-var whenDataLoaded = New Promise((resolve, reject)=>{
-	resolve(students)
-})
-// ------------------------------------------------ \\
+// -------------------Implementation------------------- \\
+var Promise = require('bluebird')						\\
+var whenDataLoaded = New Promise((resolve, reject)=>{	\\
+	resolve(students)									\\
+})														\\
+// ---------------------------------------------------- \\
 
 ```
 
+> :shipit: **I want you to do three things...**
 
+> :question: **Stduent Age Average**
+
+> :question: **IT's Average Salary**
+
+> :question: **Display students' Name and Allowance who are female**
+
+
+```javascript
+var goal1 = 28.4
+var goal2 = 53000
+var goal3 = [ 
+	{ name: 'Ting', allowance: 9000 },
+	{ name: 'Linda', allowance: 8000 } 
+]
+```
 
 --------------------------------------------------------
 
 
-> **Stduent Age Average**
+> :cold_sweat: **(Imperative Style)** to get student's age average
+
+```javascript
+var goal = 28.4 // Stduent Age Average
+
+whenDataLoaded
+	.then(selectObjKeyOf('age'))
+	.then(priceMethod('average'))
+	.then((result)=>{
+		console.log(result === goal) // return true
+	})
+```
+
+
+
+
+
+
+
 
 ```javascript
 var goal = 28.4 // Stduent Age Average
@@ -210,10 +237,7 @@ whenDataLoaded
 
 
 ```javascript
-var goal = [ 
-	{ name: 'Ting', allowance: 9000 },
-	{ name: 'Linda', allowance: 8000 } 
-]
+
 
 whenDataLoaded
 	.then(getGenderOf('F'))
@@ -223,7 +247,7 @@ whenDataLoaded
 	.then(removeObjKeyOf('age'))
 	.then(removeObjKeyOf('salary'))
 	.then((result)=>{
-		console.log(result === goal) // return true
+
 	})
 ```
 
