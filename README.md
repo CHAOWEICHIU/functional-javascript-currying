@@ -15,7 +15,7 @@ and be able to re-use it with little effort!
 
 
 
-# Warm Up Demo
+# Let's Try it!
 ```javascript
 var fruits = [
 	{ name: 'apple',  price: 5 }, 
@@ -24,7 +24,12 @@ var fruits = [
 ]
 ```
 
-### First Way To Get Sum
+> **Get Sum Of Fruit Price**
+```javascript
+// Your Code ....
+```
+
+> **My First Way To Get Sum**
 ```javascript
 request('magicURL')
 	.then((fruits)=>{
