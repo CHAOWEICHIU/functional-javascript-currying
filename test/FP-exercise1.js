@@ -4,7 +4,6 @@ const expect = require('chai').expect
 	, _ = require('lodash')
 	, decimalPlaces = require('../lib/decimalPlaces')
 
-
 // Data with Promise
 var whenDataLoaded = new Promise((resolve, reject)=>{
 	let students = [

@@ -102,3 +102,8 @@ whenDataLoaded
 		// [ { name: 'Ting', allowance: 9000 },{ name: 'Linda', allowance: 8000 } ]
 	})
 ```
+
+### Next Step
+You can go to my test file and play with things inside ^_^ Goood luck!!
+You can contact me if you would like to know more about this 
+My email is chaoweichiu@gmail.com
