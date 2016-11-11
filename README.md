@@ -11,7 +11,7 @@
 ### Which way do you think that you prefer? 
 
 ### Data From API -> Get Sum?
-```
+```javascript
 var fruits = [
 	{ name: 'apple',  price: 5 }, 
 	{ name: 'orange', price: 10 }, 
@@ -20,7 +20,7 @@ var fruits = [
 ```
 
 ### First Way(Functional Way)
-```
+```javascript
 request('magicURL')
 	.then((fruits)=>{
 		fruits
@@ -33,7 +33,7 @@ request('magicURL')
 ```
 
 ### Second Way (Functional Way With Declarative Style)
-```
+```javascript
 request('magicURL')
 	.then(selectKeyOf('price'))
 	.then(priceMethod('sum'))
