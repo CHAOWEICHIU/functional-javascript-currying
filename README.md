@@ -157,8 +157,28 @@ whenDataLoaded
 
 --------------------------------------------------------
 
-### Next Step
 
-You can go to my test file and play with things inside ^_^ Goood luck!!
-You can contact me if you would like to know more about this.
-My email is chaoweichiu@gmail.com
+> Please Go to test folder to see how I implement the code,
+if there is something that is not clear, or you want me to 
+explain more about it. Please email me at chaoweichiu@gmail.com
+
+
+
+## About me
+
+> :fire: Full Stack Web Developer
+
+I am a freelance full-stack web developer, and I get so 
+excited whenever there is a chance that I can challenge
+myself and become a better software developer.
+
+
+> :fire: Test Nerd
+
+Few months age, I have exposed to TDD(test-driven development) way
+of writing a software. Since then, I have fallen in love with that.
+I was inspired by [MPJ](https://www.youtube.com/watch?v=TWBDa5dqrl8)
+and [his video](https://www.youtube.com/watch?v=vqAaMVoKz1c)
+
+
+------------------------------------------
