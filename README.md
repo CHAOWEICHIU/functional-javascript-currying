@@ -3,8 +3,6 @@
 # Declarative Style V.S. Imperative Style
 
 
-## The difference between Imperative Style and Declarative Style?
-
 > **Imperative Style** -> You told computer "How" to do it
 
 > **Declarative Style** -> You told computer "What" to do
