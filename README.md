@@ -1,16 +1,13 @@
 # Functional Programming
 > A programmer’s dream is to write code, and be able to use it with little effort, because we are **LAZY**(or maybe I am very lazy)
 
-# How can we become a better programmer
+# You are a good programmer if ...
 - [ ] Code that can be repeatedly used with little effort
 - [ ] Code that can be tested easily
 - [ ] Code that can express themself
 
 
 # A simple way to tell if you are a good programmer
-### Which way do you think that you prefer? 
-
-### Data From API -> Get Sum?
 ```javascript
 var fruits = [
 	{ name: 'apple',  price: 5 }, 
@@ -19,7 +16,7 @@ var fruits = [
 ]
 ```
 
-### First Way(Functional Way)
+### First Way To Get Sum(Functional Way)
 ```javascript
 request('magicURL')
 	.then((fruits)=>{
@@ -32,7 +29,7 @@ request('magicURL')
 	})
 ```
 
-### Second Way (Functional Way With Declarative Style)
+### Second Way To Get Sum(Functional Way With Declarative Style)
 ```javascript
 request('magicURL')
 	.then(selectKeyOf('price'))
