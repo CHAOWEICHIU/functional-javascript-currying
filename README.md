@@ -120,7 +120,6 @@ whenDataLoaded
 > **Average IT's Salary**
 ```javascript
 var goal = 53000
-
 whenDataLoaded
 	.then(getDepartmentOf('IT'))
 	.then(selectObjKeyOf('salary'))
