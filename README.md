@@ -15,7 +15,7 @@ and be able to re-use it with little effort!
 
 
 
-# Let's Try it!
+# Let's Try!
 ```javascript
 var fruits = [
 	{ name: 'apple',  price: 5 }, 
@@ -28,6 +28,8 @@ var fruits = [
 ```javascript
 // Your Code ....
 ```
+--------------------------------------------------------
+
 
 > **My First Way To Get Sum**
 ```javascript
@@ -41,8 +43,10 @@ request('magicURL')
 		console.log(result) // 30
 	})
 ```
+--------------------------------------------------------
 
-### Second Way To Get Sum
+
+> **Second Way To Get Sum**
 ```javascript
 request('magicURL')
 	.then(selectKeyOf('price'))
@@ -51,6 +55,7 @@ request('magicURL')
 		console.log(result) // 30
 	})
 ```
+--------------------------------------------------------
 
 
 If you have choosen the second way to handle this problem, **you have become a good programmer because ...**
