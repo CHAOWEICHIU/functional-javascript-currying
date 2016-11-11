@@ -29,7 +29,7 @@ the block **(Imperative Style)** at the first glacne.
 
 
 > :kissing_heart: It is easier to read what is going on 
-with these code
+with these code (Declarative Style)
 
 
 
