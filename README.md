@@ -55,7 +55,7 @@ request('magicURL')
 --------------------------------------------------------
 
 
-> **What If We Can Get Sum By...**
+> **What If We Can Get Sum By ...(Declarative Style)**
 
 ```javascript
 request('magicURL')
@@ -68,21 +68,14 @@ request('magicURL')
 --------------------------------------------------------
 
 
-If you have choosen the second way to handle this problem, **you have become a good programmer because ...**
+## What is Declarative Style of writing?
+
+:thumbsup: Code that can express themself
 
 
-- [x]  [Human Term]  Code that can be repeatedly used with little effort
-- [x]  [Human Term]  Code that can be tested easily
-- [x]  [Human Term]  Code that can express themself
-- [x]  [Geek Term]  DRY
-- [x]  [Geek Term]  Abstractions
-- [x]  [Geek Term]  Encapsulation
 
-### Good Job!
-> You are telling your program **WHAT** to do instead of **HOW** to do it!!
+## Let's Get Dirty!
 
-
-## DEMO
 ```javascript
 let students = [
 	{name: 'cw',    age: 27, gender:'M', allowance: 1000, department:'IT', 	  salary: 60000.56},
