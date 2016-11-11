@@ -49,13 +49,13 @@ with these code at one glance**(Declarative Style)**
 
 ```javascript
 var fruits = [
-	{ name: 'apple',  price: 5 }, 
-	{ name: 'orange', price: 10 }, 
-	{ name: 'lemon',  price: 15 }
+	{ name: 'apple' ,  price: 5  }, 
+	{ name: 'orange',  price: 10 }, 
+	{ name: 'lemon' ,  price: 15 }
 ]
 ```
 
-> :shipit: **You can get the data list by ...**
+> :shipit: **You can get the fruit list by ...**
 
 
 ```javascript
@@ -65,17 +65,12 @@ request('magicURL')
 	})
 ```
 
+--------------------------------------------------------
 
 
 > :grimacing: **Can you help me to get sum of price listed?**
 
-
-
-
---------------------------------------------------------
-
-
-> **(Imperative Style)**
+> :dizzy_face:**(Imperative Style)**
 
 ```javascript
 request('magicURL')
@@ -91,7 +86,7 @@ request('magicURL')
 --------------------------------------------------------
 
 
-> **(Declarative Style)**
+> :kissing_smiling_eyes:**(Declarative Style)**
 
 ```javascript
 request('magicURL')
@@ -101,7 +96,28 @@ request('magicURL')
 		console.log(result) // 30
 	})
 ```
+
+
+> :innocent:**(Declarative Style with currying)**
+
+```javascript
+request('magicURL')
+	.then(selectKeyOf('price'))
+	.then(priceMethod('sum'))
+	.then((result)=>{
+		console.log(result) // 30
+	})
+```
+
+> :cold_sweat: There is no way that I can understand it once the application get more complex
+
+> :kissing_smiling_eyes: It is easy to reason about, but can I get it easier?
+
+> :innocent: Yeah, using currying and ecaplcate all the code.
+
 --------------------------------------------------------
+
+
 
 
 ## The difference between Imperative Style and Declarative Style?
