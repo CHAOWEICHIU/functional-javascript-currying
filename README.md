@@ -1,6 +1,6 @@
 
 
-# Declarative Style VS Imperative Style
+# Declarative Style V.S. Imperative Style
 
 > :heart: A programmer’s dream is to write code, 
 and be able to re-use it with little effort!
@@ -80,14 +80,29 @@ request('magicURL')
 ## Let's Get Dirty!
 
 ```javascript
-let students = [
+var students = [
 	{name: 'cw',    age: 27, gender:'M', allowance: 1000, department:'IT', 	  salary: 60000.56},
 	{name: 'ken',   age: 31, gender:'M', allowance: 2000, department:'IT',    salary: 44000.32},
 	{name: 'ck',    age: 35, gender:'M', allowance: 3000, department:'IT',    salary: 55000.11},
 	{name: 'Ting',  age: 22, gender:'F', allowance: 4000, department:'sales', salary: 70000.85},
 	{name: 'Linda', age: 27, gender:'F', allowance: 3000, department:'sales', salary: 40000.49}
 ]
+
+// Pretended AJAX call from third party API
+var whenDataLoaded = New Promise((resolve, reject)=>{
+	resolve(students)
+})
+
+// then you can ...
+whenDataLoaded
+	.then((result)=>{
+		console.log(result) // Students Array
+	})
 ```
+--------------------------------------------------------
+
+
+
 
 ### Get the age average API
 ```javascript
