@@ -1,6 +1,6 @@
 
 
-# Declarative Style Of Writing Software 
+# Declarative Style VS Imperative Style
 
 > :heart: A programmer’s dream is to write code, 
 and be able to re-use it with little effort!
@@ -39,7 +39,7 @@ request('magicURL')
 --------------------------------------------------------
 
 
-> **My Way To Get Sum**
+> **(Imperative Style)**
 
 ```javascript
 request('magicURL')
@@ -55,7 +55,7 @@ request('magicURL')
 --------------------------------------------------------
 
 
-> **What If We Can Get Sum By ...(Declarative Style)**
+> **(Declarative Style)**
 
 ```javascript
 request('magicURL')
@@ -68,9 +68,12 @@ request('magicURL')
 --------------------------------------------------------
 
 
-## What is Declarative Style of writing?
+## The difference between Imperative Style and Declarative Style?
 
-:thumbsup: Code that can express themself
+> **Imperative Style** -> You told computer "How" to do it
+
+> **Declarative Style** -> You told computer "What" to do
+
 
 
 
