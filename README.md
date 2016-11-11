@@ -68,13 +68,7 @@ request('magicURL')
 --------------------------------------------------------
 
 
-> :question: **Get Sum Of Price Listed?**
-
-
---------------------------------------------------------
-
-
-> :dizzy_face:**(Imperative Style)**
+> :dizzy_face:**(Imperative Style)** to get Sum of price
 
 ```javascript
 request('magicURL')
@@ -89,7 +83,7 @@ request('magicURL')
 ```
 
 
-> :kissing_smiling_eyes:**(Declarative Style)**
+> :kissing_smiling_eyes:**(Declarative Style)** to get Sum of price
 
 ```javascript
 request('magicURL')
@@ -101,7 +95,7 @@ request('magicURL')
 ```
 
 
-> :innocent:**(Declarative Style with currying)**
+> :innocent:**(Declarative Style with currying)** to get Sum of price
 
 ```javascript
 request('magicURL')
