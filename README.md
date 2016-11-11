@@ -50,13 +50,11 @@ If you have choosen the second way to handle this problem, **you have become a g
 - [x]  [Geek Term]  Abstractions
 - [x]  [Geek Term]  Encapsulation
 
-### Tip:
-> Good Job! You are telling your program **WHAT** to do instead of **HOW** to do it!!
+### Good Job!
+> You are telling your program **WHAT** to do instead of **HOW** to do it!!
 
 
 ## DEMO
-
-Data Provided
 ```javascript
 let students = [
 	{name: 'cw',    age: 27, gender:'M', allowance: 1000, department:'IT', 	  salary: 60000.56},
@@ -67,24 +65,7 @@ let students = [
 ]
 ```
 
-
-### 1. Exercise 1 -> Get the average of students age
-
-
-####Imperative programming
-```javascript
-whenDataLoaded
-	.then((stduents)=>{
-		stduents
-			.map((student)=>student.age)
-			.reduce((acc, age)=>{acc+=age},0)
-	})
-	.then((result)=>{
-		console.log(result) // 28.4
-	})
-```
-
-####Declarative programming
+### Get the average API
 ```javascript
 whenDataLoaded
 	.then(selectObjKeyOf('age'))
@@ -94,5 +75,15 @@ whenDataLoaded
 	})
 ```
 	
-### 2. Exercise 1 -> Get the average of students age
+### Get the average IT salary API
+```javascript
+whenDataLoaded
+	.then(getDepartmentOf('IT'))
+	.then(selectObjKeyOf('salary'))
+	.then(priceMethod('average'))
+	.then(showDecimalsPoint(0))
+	.then((result)=>{
+		console.log(result) // 53000
+	})
+```
 	
