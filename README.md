@@ -70,7 +70,7 @@ let students = [
 whenDataLoaded
 	.then(selectObjKeyOf('age'))
 	.then(priceMethod('average'))
-	price((result)=>{
+	.then((result)=>{
 		console.log(result) // 28.4
 	})
 ```
