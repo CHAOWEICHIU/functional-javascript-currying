@@ -118,6 +118,7 @@ whenDataLoaded
 	
 
 > **Average IT's Salary**
+
 ```javascript
 var goal = 53000
 whenDataLoaded
@@ -129,7 +130,9 @@ whenDataLoaded
 		console.log(result === goal) // return true
 	})
 ```
+
 --------------------------------------------------------
+
 
 
 > **Get Female only, display Name and Allowance**
@@ -151,6 +154,7 @@ whenDataLoaded
 		console.log(result === goal) // return true
 	})
 ```
+
 --------------------------------------------------------
 
 ### Next Step
