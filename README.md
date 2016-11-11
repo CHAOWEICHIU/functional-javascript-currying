@@ -5,17 +5,13 @@
 > :heart: A programmer’s dream is to write code, 
 and be able to re-use it with little effort!
 
---------------------------------------------------------
-
-
-> You are writing a robust software by using
-declarative style if you have ...
-
 :thumbsup: Code that can be repeatedly used with little effort
 
 :thumbsup: Code that can be tested easily
 
 :thumbsup: Code that can express themself
+
+--------------------------------------------------------
 
 
 
