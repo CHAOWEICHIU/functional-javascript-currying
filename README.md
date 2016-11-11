@@ -3,7 +3,7 @@
 # Declarative Style V.S. Imperative Style
 
 
-> **(Imperative Style)**
+> :cold_sweat: **(Imperative Style)**
 
 ```javascript
 var numbers = [1,2,3,4,5]
@@ -16,7 +16,7 @@ for (var i=0; i< numbers.length; i++){
 console.log(doubled) // [2,4,6,8,10]
 ```
 
-> **(Declarative Style)**
+> :kissing_heart: **(Declarative Style)**
 
 ```javascript
 var numbers = [1,2,3,4,5]
