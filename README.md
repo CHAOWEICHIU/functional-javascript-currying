@@ -9,7 +9,7 @@
 
 > **Declarative Style** -> You told computer "What" to do
 
-> **Declarative Style** -> You told computer "What" to do in a human readable way!
+
 
 
 > :cold_sweat: **(Imperative Style)**
