@@ -2,14 +2,39 @@
 
 # Declarative Style V.S. Imperative Style
 
-> :heart: A programmer’s dream is to write code, 
-and be able to re-use it with little effort!
 
-:thumbsup: Code that can be repeatedly used with little effort
+> **(Imperative Style)**
 
-:thumbsup: Code that can be tested easily
+```javascript
+var numbers = [1,2,3,4,5]
+  , doubled = []
 
-:thumbsup: Code that can express themself
+for (var i=0; i< numbers.length; i++){
+	var newNumber = numbers[i] * 2
+	doubled.push(newNumber)
+}
+console.log(doubled) // [2,4,6,8,10]
+```
+
+> **(Declarative Style)**
+
+```javascript
+var numbers = [1,2,3,4,5]
+var doubled = numbers.map( n => n * 2 )
+console.log(doubled) // [2,4,6,8,10]
+```
+
+
+
+
+
+
+
+
+
+
+
+
 
 --------------------------------------------------------
 
@@ -182,6 +207,16 @@ Few months age, I have exposed to TDD(test-driven development) way
 of writing a software. Since then, I have fallen in love with that.
 I was inspired by [MPJ](https://www.youtube.com/watch?v=TWBDa5dqrl8)
 and [his video](https://www.youtube.com/watch?v=vqAaMVoKz1c)
+
+
+> :heart: A programmer’s dream is to write code, 
+and be able to re-use it with little effort!
+
+:thumbsup: Code that can be repeatedly used with little effort
+
+:thumbsup: Code that can be tested easily
+
+:thumbsup: Code that can express themself
 
 
 ------------------------------------------
