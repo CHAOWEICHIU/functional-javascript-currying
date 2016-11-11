@@ -317,18 +317,19 @@ whenDataLoaded
 		console.log(result === Goal_3) // return true
 	})
 ```
-> :cold_sweat: **(Imperative Style)** 
+> :cold_sweat: I can see there is a huge benefit to wrtie code in **Declarative Style** 
 
-> :kissing_closed_eyes:
+> :kissing_closed_eyes: Wow! I did not know that I can make the code that human readable!! 
 
-> :innocent:
+> :innocent: By combining **curry** with **Declarative Style**, everyone can understand my code without me telling them!!
 
 
 --------------------------------------------------------
 
 
-> Please check out test folder to see how I implement the code above
-,if there is something that is not clear, or you want me to 
+> Please check out test folder to see how I implement 
+**(Declarative Style with currying)**.
+If there is something that is not clear, or you want me to 
 explain more about it. Please email me at chaoweichiu@gmail.com
 
 
