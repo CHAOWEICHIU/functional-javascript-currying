@@ -29,11 +29,7 @@ the block **(Imperative Style)** at the first glacne.
 
 
 > :kissing_heart: It is easier to read what is going on 
-with these code **(Declarative Style)**
-
-
-
-
+with these code at one glance**(Declarative Style)**
 
 
 
@@ -48,6 +44,9 @@ with these code **(Declarative Style)**
 
 # Let's Try!
 
+> :shipit: **Here is the fruits list!**
+
+
 ```javascript
 var fruits = [
 	{ name: 'apple',  price: 5 }, 
@@ -56,7 +55,7 @@ var fruits = [
 ]
 ```
 
-> **Get Sum Of Fruit Price**
+> :grimacing: **Can you help me to get sum of price listed?**
 
 
 ```javascript
