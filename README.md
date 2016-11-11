@@ -2,7 +2,7 @@
 
 Raw Data
 
-```
+```javascript
 let students = [
 	{name: 'cw',    age: 27, gender:'M', allowance: 1000, department:'IT', 	  salary: 60000.56},
 	{name: 'ken',   age: 31, gender:'M', allowance: 2000, department:'IT',    salary: 44000.32},
@@ -16,7 +16,7 @@ Exercise 1 -> Get the average of students age
 
 
 Imperative programming
-```
+```javascript
 whenDataLoaded
 	.then((stduents)=>{
 		stduents
@@ -29,7 +29,7 @@ whenDataLoaded
 ```
 
 Declarative programming
-```
+```javascript
 whenDataLoaded
 	.then(selectObjKeyOf('age'))
 	.then(priceMethod('average'))
