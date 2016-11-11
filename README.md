@@ -65,7 +65,7 @@ let students = [
 ]
 ```
 
-### Get the average API
+### Get the age average API
 ```javascript
 whenDataLoaded
 	.then(selectObjKeyOf('age'))
