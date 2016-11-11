@@ -1,40 +1,47 @@
 # Functional Programming
-Why I love it?
-> A programmer’s dream is to write code, and be able to use it with little effort
+> A programmer’s dream is to write code, and be able to use it with little effort, because we are **LAZY**(or maybe I am very lazy)
 
-How do become a good programmer’s?
+# How can we become a better programmer
 - [ ] Code that can be repeatedly used with little effort
 - [ ] Code that can be tested easily
 - [ ] Code that can express themself
 
 
+# A simple way to tell if you are a good programmer
 ### Which way do you think that you prefer? 
 
 ### Data From API -> Get Sum?
+```
 var fruits = [
 	{ name: 'apple',  price: 5 }, 
 	{ name: 'orange', price: 10 }, 
 	{ name: 'lemon',  price: 15 }
 ]
+```
 
 ### First Way(Functional Way)
-request('http://fruits.com/api')
-				.then((fruits)=>{
-					fruits
-						.map((fruit)=fruit.price)
-						.reduce((acc, price)=>acc+=price,0)
-				})
-				.then((result)=>{
-					console.log(result) // 30
-				})
+```
+request('magicURL')
+	.then((fruits)=>{
+		fruits
+			.map((fruit)=fruit.price)
+			.reduce((acc, price)=>acc+=price,0)
+	})
+	.then((result)=>{
+		console.log(result) // 30
+	})
+```
 
 ### Second Way (Functional Way With Declarative Style)
-request('http://fruits.com/api')
-				.then(selectKeyOf('price'))
-				.then(priceMethod('sum'))
-				.then((result)=>{
-					console.log(result) // 30
-				})
+```
+request('magicURL')
+	.then(selectKeyOf('price'))
+	.then(priceMethod('sum'))
+	.then((result)=>{
+		console.log(result) // 30
+	})
+```
+
 
 If you have choosen the second style of doing your program, 
 you have become a good programmer by doing
