@@ -101,7 +101,7 @@ request('magicURL')
 ```
 
 
-> :innocent:**(Declarative Style with currying)** to get Sum of price
+> :innocent:**(Declarative Style with [currying](https://hughfdjackson.com/javascript/why-curry-helps/))** to get Sum of price
 
 ```javascript
 request('magicURL')
