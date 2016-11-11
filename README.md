@@ -16,7 +16,7 @@ var fruits = [
 ]
 ```
 
-### First Way To Get Sum(Functional Way)
+### First Way To Get Sum
 ```javascript
 request('magicURL')
 	.then((fruits)=>{
@@ -29,7 +29,7 @@ request('magicURL')
 	})
 ```
 
-### Second Way To Get Sum(Functional Way With Declarative Style)
+### Second Way To Get Sum
 ```javascript
 request('magicURL')
 	.then(selectKeyOf('price'))
@@ -40,8 +40,7 @@ request('magicURL')
 ```
 
 
-If you have choosen the second style of doing your program, 
-you have become a good programmer by doing
+If you have choosen the second way to handle this problem, **you have become a good programmer because ...**
 
 Human Readable Term
 - [x] Code that can be repeatedly used with little effort
@@ -53,9 +52,8 @@ Geek Term
 - [x] Abstractions
 - [x] Encapsulation
 
-
+### Tip:
 > Good Job! You are telling program **WHAT to do** instead of **HOW to do it**!!
-
 
 
 ### DEMO
