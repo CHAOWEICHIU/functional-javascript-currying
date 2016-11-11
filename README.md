@@ -319,16 +319,16 @@ whenDataLoaded
 ```
 > :cold_sweat: I can see there is a huge benefit to wrtie code in **Declarative Style** 
 
-> :kissing_closed_eyes: Wow! I did not know that I can make the code that human readable!! 
+> :kissing_closed_eyes: Wow! I did not know that I can make the code that is so close to human language!! 
 
-> :innocent: By combining **curry** with **Declarative Style**, everyone can understand my code without me telling them!!
+> :innocent: By combining **Curry** with **Declarative Style**, everyone can understand my code without me telling them!!
 
 
 --------------------------------------------------------
 
 
 > Please check out test folder to see how I implement 
-**(Declarative Style with currying)**.
+**(Declarative Style with Currying)**.
 If there is something that is not clear, or you want me to 
 explain more about it. Please email me at chaoweichiu@gmail.com
 
