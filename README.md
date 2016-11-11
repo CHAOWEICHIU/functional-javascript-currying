@@ -42,21 +42,19 @@ request('magicURL')
 
 If you have choosen the second way to handle this problem, **you have become a good programmer because ...**
 
-Human Readable Term
-- [x] Code that can be repeatedly used with little effort
-- [x] Code that can be tested easily
-- [x] Code that can express themself
 
-Geek Term
-- [x] DRY
-- [x] Abstractions
-- [x] Encapsulation
+- [x] (Human Term) Code that can be repeatedly used with little effort
+- [x] (Human Term) Code that can be tested easily
+- [x] (Human Term) Code that can express themself
+- [x] (Geek Term) DRY
+- [x] (Geek Term) Abstractions
+- [x] (Geek Term) Encapsulation
 
 ### Tip:
-> Good Job! You are telling program **WHAT to do** instead of **HOW to do it**!!
+> Good Job! You are telling your program **WHAT** to do instead of **HOW** to do it!!
 
 
-### DEMO
+## DEMO
 
 Data Provided
 ```javascript
