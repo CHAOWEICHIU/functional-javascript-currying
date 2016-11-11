@@ -1,4 +1,21 @@
-## DEMO
+## Programmer’s Dream
+
+> A programmer’s dream is to write code, and be able to use it with little effort
+
+Geek Term
+- [x] Abstractions
+- [x] Code Reuse
+- [x] Encapsulation
+
+Human Readable Term
+- [x] Code that can be repeatedly used with little effort
+- [x] Code that can be tested easily
+- [x] Code that can express themself
+
+## How?
+
+
+### DEMO
 
 Data Provided
 ```javascript
@@ -11,13 +28,11 @@ let students = [
 ]
 ```
 
-- [x] Finish my changes
-- [ ] Push my commits to GitHub
-- [ ] Open a pull request
-1. Exercise 1 -> Get the average of students age
+
+### 1. Exercise 1 -> Get the average of students age
 
 
-Imperative programming
+####Imperative programming
 ```javascript
 whenDataLoaded
 	.then((stduents)=>{
@@ -30,7 +45,7 @@ whenDataLoaded
 	})
 ```
 
-Declarative programming
+####Declarative programming
 ```javascript
 whenDataLoaded
 	.then(selectObjKeyOf('age'))
@@ -40,5 +55,5 @@ whenDataLoaded
 	})
 ```
 	
-2. Exercise 1 -> Get the average of students age
+### 2. Exercise 1 -> Get the average of students age
 	
