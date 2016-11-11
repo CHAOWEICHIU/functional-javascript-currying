@@ -24,11 +24,11 @@ var doubled = numbers.map( n => n * 2 )
 console.log(doubled) // [2,4,6,8,10]
 ```
 
-> :cold_sweat: It is really difficult to reason about
-the code at one glacne
+> :cold_sweat: It is a litte bit hard to reason about
+the block **(Imperative Style)** at the first glacne.
 
 
-> :kissing_heart: It is easy to read what is going on 
+> :kissing_heart: It is easier to read what is going on 
 with these code
 
 
@@ -215,14 +215,14 @@ I was inspired by [MPJ](https://www.youtube.com/watch?v=TWBDa5dqrl8)
 and [his video](https://www.youtube.com/watch?v=vqAaMVoKz1c)
 
 
-> :heart: A programmer’s dream is to write code, 
+> :fire: A programmer’s dream is to write code, 
 and be able to re-use it with little effort!
 
-:thumbsup: Code that can be repeatedly used with little effort
+:heart: Code that can be repeatedly used with little effort
 
-:thumbsup: Code that can be tested easily
+:heart: Code that can be tested easily
 
-:thumbsup: Code that can express themself
+:heart: Code that can express themself
 
 
 ------------------------------------------
