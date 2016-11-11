@@ -55,18 +55,22 @@ var fruits = [
 ]
 ```
 
-> :grimacing: **Can you help me to get sum of price listed?**
+> :shipit: **You can get the data list by ...**
 
 
 ```javascript
 request('magicURL')
 	.then((fruits)=>{
-		// Your Code ...
-	})
-	.then((result)=>{
-		console.log(result) // return 30
+		console.log(fruits) // return fruits list
 	})
 ```
+
+
+
+> :grimacing: **Can you help me to get sum of price listed?**
+
+
+
 
 --------------------------------------------------------
 
