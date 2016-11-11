@@ -2,9 +2,9 @@
 
 # Declarative Style Of Writing Software 
 
-> :heart: A programmer’s dream is to write code, and be able to use it with little effort, because we are **LAZY**(or maybe I am very lazy)
-
-
+> :heart: A programmer’s dream is to write code, 
+and be able to re-use it with little effort!
+--------------------------------------------------------
 > You are writing declarative style to write software if you have ...
 :thumbsup: Code that can be repeatedly used with little effort
 :thumbsup: Code that can be tested easily
