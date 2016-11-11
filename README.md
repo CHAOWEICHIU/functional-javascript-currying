@@ -194,6 +194,7 @@ and [his video](https://www.youtube.com/watch?v=vqAaMVoKz1c)
 ```javascript
 decimalPlaces('.05') 	  		 // return 2
 toTitleCase('hoW aRe yOU') 		 // return 'How Are You'
-truncateString("how are you", 5) // return how a validZipcode('48326')   		  // return true
-... More 
+truncateString("how are you", 5) // return how a ...
+validZipcode('48326')   		 // return true
+// More ...
 ```
