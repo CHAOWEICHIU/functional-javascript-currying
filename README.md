@@ -86,4 +86,19 @@ whenDataLoaded
 		console.log(result) // 53000
 	})
 ```
-	
+
+### Get Female, and output only Name and Allowance
+
+```javascript
+whenDataLoaded
+	.then(getGenderOf('F'))
+	.then(addAllowance(5000))
+	.then(removeObjKeyOf('gender'))
+	.then(removeObjKeyOf('department'))
+	.then(removeObjKeyOf('age'))
+	.then(removeObjKeyOf('salary'))
+	.then((result)=>{
+		console.log(result) 
+		// [ { name: 'Ting', allowance: 9000 },{ name: 'Linda', allowance: 8000 } ]
+	})
+```
