@@ -1,18 +1,57 @@
-## Programmer’s Dream
-
+# Functional Programming
+Why I love it?
 > A programmer’s dream is to write code, and be able to use it with little effort
 
-Geek Term
-- [x] Abstractions
-- [x] Code Reuse
-- [x] Encapsulation
+How do become a good programmer’s?
+- [ ] Code that can be repeatedly used with little effort
+- [ ] Code that can be tested easily
+- [ ] Code that can express themself
+
+
+### Which way do you think that you prefer? 
+
+### Data From API -> Get Sum?
+var fruits = [
+	{ name: 'apple',  price: 5 }, 
+	{ name: 'orange', price: 10 }, 
+	{ name: 'lemon',  price: 15 }
+]
+
+### First Way(Functional Way)
+request('http://fruits.com/api')
+				.then((fruits)=>{
+					fruits
+						.map((fruit)=fruit.price)
+						.reduce((acc, price)=>acc+=price,0)
+				})
+				.then((result)=>{
+					console.log(result) // 30
+				})
+
+### Second Way (Functional Way With Declarative Style)
+request('http://fruits.com/api')
+				.then(selectKeyOf('price'))
+				.then(priceMethod('sum'))
+				.then((result)=>{
+					console.log(result) // 30
+				})
+
+If you have choosen the second style of doing your program, 
+you have become a good programmer by doing
 
 Human Readable Term
 - [x] Code that can be repeatedly used with little effort
 - [x] Code that can be tested easily
 - [x] Code that can express themself
 
-## How?
+Geek Term
+- [x] DRY
+- [x] Abstractions
+- [x] Encapsulation
+
+
+> Good Job! You are telling program **WHAT to do** instead of **HOW to do it**!!
+
 
 
 ### DEMO
@@ -50,7 +89,7 @@ whenDataLoaded
 whenDataLoaded
 	.then(selectObjKeyOf('age'))
 	.then(priceMethod('average'))
-	.then((result)=>{
+	price((result)=>{
 		console.log(result) // 28.4
 	})
 ```
