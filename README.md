@@ -57,6 +57,8 @@ var fruits = [
 ```
 
 > **Get Sum Of Fruit Price**
+
+
 ```javascript
 request('magicURL')
 	.then((fruits)=>{
