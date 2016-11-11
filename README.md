@@ -117,7 +117,7 @@ request('magicURL')
 
 > :dizzy_face: I feel like my brain is all over the place now...
 
-> :kissing_smiling_eyes: It is very easy to know what the code is doing, but can I make it human readable?
+> :kissing_smiling_eyes: It is very easy to know what the code is doing, but can I make it **human readable**?
 
 > :innocent: It is so easy to reason about my code. Also!, I can re-use the code all over my program!
 
@@ -133,6 +133,10 @@ request('magicURL')
 
 ## Let's Get Dirty!
 
+
+> :shipit: **Here is the list of students**
+
+
 ```javascript
 var students = [
 	{name: 'cw',    age: 27, gender:'M', allowance: 1000, department:'IT', 	  salary: 60000.56},
@@ -141,18 +145,32 @@ var students = [
 	{name: 'Ting',  age: 22, gender:'F', allowance: 4000, department:'sales', salary: 70000.85},
 	{name: 'Linda', age: 27, gender:'F', allowance: 3000, department:'sales', salary: 40000.49}
 ]
+```
+
+
+> :shipit: **You can get the students list by ...**
+
 
 // Pretended AJAX call from third party API
-var whenDataLoaded = New Promise((resolve, reject)=>{
-	resolve(students)
-})
 
+```javascript
 // then you have fake API call by ...
 whenDataLoaded
 	.then((result)=>{
 		console.log(result) // Students Array
 	})
+
+// -------------------Implementation--------------- \\
+var Promise = require('bluebird')
+var whenDataLoaded = New Promise((resolve, reject)=>{
+	resolve(students)
+})
+// ------------------------------------------------ \\
+
 ```
+
+
+
 --------------------------------------------------------
 
 
