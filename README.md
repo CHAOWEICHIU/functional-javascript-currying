@@ -199,7 +199,7 @@ var whenDataLoaded = New Promise((resolve, reject)=>{	\\
 
 ```
 
-> :shipit: **How to get...**
+> :shipit: **How to get ...**
 
 > :question: **Stduent Age Average**
 
