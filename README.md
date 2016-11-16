@@ -31,8 +31,7 @@ greetHello('Chiu') // 'Hello, Chiu'
 
 
 
-> Let's see how you can use curry to make your application 
-> easier to reason about
+> Let's see how you can use curry to help you!
 --------------------------------------------------------
 
 
