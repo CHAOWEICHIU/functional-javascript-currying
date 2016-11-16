@@ -95,7 +95,7 @@ var fruits = [
 ]
 ```
 
-> :shipit: **You can get the fruit list by ...**
+> :shipit: **Get Fruits list API ...**
 
 
 ```javascript
@@ -181,7 +181,7 @@ var students = [
 ```
 
 
-> :shipit: **You can get the students list by ...**
+> :shipit: **Get Students list API ...**
 
 
 ```javascript
@@ -199,7 +199,7 @@ var whenDataLoaded = New Promise((resolve, reject)=>{	\\
 
 ```
 
-> :shipit: **Let's do three things!**
+> :shipit: **How to get...**
 
 > :question: **Stduent Age Average**
 
