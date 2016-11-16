@@ -83,7 +83,7 @@ with these code at one glance**(Declarative Style)**
 
 > Declarative Style -> You told computer "What" to do
 
-> **Declarative Style With Currying** -> You told computer "What" to do in a human readable way!
+> **Declarative Style With Currying** -> You told computer "What" to do in a **Human Readable** way!
 
 
 
@@ -199,7 +199,7 @@ var whenDataLoaded = New Promise((resolve, reject)=>{	\\
 
 ```
 
-> :shipit: **I want you to do three things...**
+> :shipit: **Let's do three things!**
 
 > :question: **Stduent Age Average**
 
