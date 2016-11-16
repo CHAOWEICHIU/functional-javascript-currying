@@ -34,12 +34,6 @@ greetHello('Chiu') // 'Hello, Chiu'
 ## How Curry Can Help!
 
 
---------------------------------------------------------
-
-
-# Declarative Style V.S. Imperative Style
-
-
 > **Imperative Style** -> You told computer "How" to do it
 
 > **Declarative Style** -> You told computer "What" to do
