@@ -3,6 +3,8 @@
 > Currying is a way of constructing functions that allows partial application of a function’s arguments
 
 
+-------------------------------------------------------
+
 
 > Standard Javascript
 
@@ -10,7 +12,7 @@
 const greet = function(greeting, name) {
   console.log(greeting + ", " + name)
 }
-greet('Hello', 'Ting'); //"Hello, Ting"
+greet('Hello', 'Ting')  // 'Hello, Ting'
 ``` 
 
 > First Currying 
@@ -27,6 +29,11 @@ greetHello('Ting') // 'Hello, Ting'
 greetHello('Chiu') // 'Hello, Chiu'
 ```
 
+
+
+> Let's see how you can use curry to make your application 
+> easier to reason about
+--------------------------------------------------------
 
 
 # Declarative Style V.S. Imperative Style
