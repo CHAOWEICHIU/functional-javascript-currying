@@ -87,11 +87,6 @@ with these code at one glance**(Declarative Style)**
 
 
 
-
-
-> :shipit: **Here is the fruits list!**
-
-
 ```javascript
 var fruits = [
 	{ name: 'apple' ,  price: 5  }, 
