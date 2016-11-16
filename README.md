@@ -1,6 +1,6 @@
 ## What is Currying 
 
-> Currying is a way of constructing functions that allows partial application of a function’s arguments
+**Currying is a way of constructing functions that allows partial application of a function’s arguments**
 
 
 -------------------------------------------------------
@@ -31,7 +31,7 @@ greetHello('Chiu') // 'Hello, Chiu'
 
 
 
-> Let's see how you can use curry to help you!
+## How Curry Can Help!
 
 
 --------------------------------------------------------
