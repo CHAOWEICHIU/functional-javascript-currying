@@ -30,7 +30,9 @@ greetHello('Chiu') // 'Hello, Chiu'
 
 
 
-## How Curry Can Help!
+## Why Curry Can Help!
+
+**before we talk about how, let's talk about why**
 
 
 > **Imperative Style** -> You told computer "How" to do it
