@@ -83,7 +83,8 @@ with these code at one glance**(Declarative Style)**
 
 > Declarative Style -> You told computer "What" to do
 
-> **Declarative Style With Currying** -> You told computer "What" to do
+> **Declarative Style With Currying** -> You told computer "What" to do in a human readable way!
+
 
 
 
