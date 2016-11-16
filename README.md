@@ -1,3 +1,32 @@
+## What is Currying 
+
+> Currying is a way of constructing functions that allows partial application of a function’s arguments
+
+
+
+> Standard Javascript
+
+```javascript
+const greet = function(greeting, name) {
+  console.log(greeting + ", " + name)
+}
+greet('Hello', 'Ting'); //"Hello, Ting"
+``` 
+
+> First Currying 
+
+```javascript 
+const greetCurried = function(greeting) {
+  return function(name) {
+    console.log(greeting + ', ' + name)
+  }
+}
+
+const greetHello = greetCurried("Hello")
+greetHello('Ting') // 'Hello, Ting'
+greetHello('Chiu') // 'Hello, Chiu'
+```
+
 
 
 # Declarative Style V.S. Imperative Style
