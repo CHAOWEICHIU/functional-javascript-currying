@@ -32,7 +32,7 @@ greetHello('Chiu') // 'Hello, Chiu'
 
 ## Why Curry Can Help!
 
-**before we talk about how, let's talk about why**
+**Before we talk about how, let's talk about why**
 
 
 > **Imperative Style** -> You told computer "How" to do it
@@ -77,7 +77,16 @@ with these code at one glance**(Declarative Style)**
 
 
 
-# Let's Try!
+## How Curry Can Help!
+
+> Imperative Style -> You told computer "How" to do it
+
+> Declarative Style -> You told computer "What" to do
+
+> **Declarative Style With Currying** -> You told computer "What" to do
+
+
+
 
 > :shipit: **Here is the fruits list!**
 
