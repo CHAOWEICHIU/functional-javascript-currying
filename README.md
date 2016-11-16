@@ -3,7 +3,6 @@
 **Currying is a way of constructing functions that allows partial application of a function’s arguments**
 
 
--------------------------------------------------------
 
 
 > Standard Javascript
