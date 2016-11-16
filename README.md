@@ -381,7 +381,7 @@ excited whenever there is a chance that I can challenge
 myself and become a better software developer.
 
 
-> :fire: Test Nerd
+> :fire: Test Enthusiastic
 
 Few months age, I have exposed to TDD(test-driven development) way
 of writing a software. Since then, I have fallen in love with that.
