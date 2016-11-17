@@ -403,6 +403,23 @@ and [his video](https://www.youtube.com/watch?v=vqAaMVoKz1c)
 
 ## Extra Link
 
+**Explore More**
+
+> [functional-javascript-currying](https://github.com/CHAOWEICHIU/functional-javascript-currying)
+
+
+> [functional_javaScript_composition_1](https://github.com/CHAOWEICHIU/functional_javaScript_composition_1)
+
+
+> [functional_javaScript_composition_2](https://github.com/CHAOWEICHIU/functional_javaScript_composition_1)
+
+
+> [functional-javascript-purity](https://github.com/CHAOWEICHIU/functional-javascript-purity)
+
+
+**Usage**
+
+
 > [Custom Real World Functions](https://github.com/CHAOWEICHIU/ccw-custom-functions)
 
 ```javascript
@@ -418,4 +435,36 @@ validZipcode('48326')   		 // return true
 ### [Food Recipes Application](https://github.com/CHAOWEICHIU/favorite-food-recipe)
 
 >It is an application where has all recipes around the world. You would be able to see what ingredient that you need, what steps that you need to take in order to make the dish.
+
+
+
+
+## About me
+
+> :fire: Full Stack Web Developer
+
+I am a freelance full-stack web developer, and I get so 
+excited whenever there is a chance that I can challenge
+myself and become a better software developer.
+
+
+> :fire: Test Enthusiastic
+
+Few months age, I have exposed to TDD(test-driven development) way
+of writing a software. Since then, I have fallen in love with that.
+I was inspired by [MPJ](https://www.youtube.com/watch?v=TWBDa5dqrl8)
+and [his video](https://www.youtube.com/watch?v=vqAaMVoKz1c)
+
+
+> :fire: Reusable Code
+
+:heart: Code that can be repeatedly used with little effort
+
+:heart: Code that can be tested easily
+
+:heart: Code that can express themself
+
+
+------------------------------------------
+
 
